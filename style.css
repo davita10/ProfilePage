@@ -1,0 +1,417 @@
+/* CSS RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#container{
+    width: 1200px;
+    min-height: 800px;
+    background-color: whitesmoke;
+}
+
+
+/* NAVBAR START */
+
+#navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+
+.nav-content{
+    width: 900px;
+    min-height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+#logo{
+    color: whitesmoke;
+}
+
+
+#nav-links{
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    list-style: none;
+    gap: 2em;
+}
+
+
+.links {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+#nav-links li:hover{
+    font-size: 125%
+}
+
+
+a:hover{
+    font-size: 100%;
+}
+
+
+#button{
+    justify-self: end;
+    padding: .5em 1em;
+    color: whitesmoke;
+    background-color: darkturquoise;
+    border-radius: 10%;
+    box-shadow: 6px 3px teal;
+}
+
+
+button:hover{
+    font-size: 100%;
+}
+
+/* END OF NAVBAR */
+
+
+/* MAIN BODY START */
+
+#main-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 900px;
+    min-height: 800px;
+    margin: 0 auto;
+    padding-top: 30px;
+    gap: 2em;
+}
+
+/* LEFT COLUMN START */
+
+.left-col{
+    width: 580px;
+    min-height: 800px;
+}
+
+
+/* PROFILE CARD */
+
+#card-container{
+    width: 560px;
+    min-height: 200px;
+    border: 3px solid darkgray;
+}
+
+
+.banner{
+    height: 75px;
+    width: auto;
+    background-color: darkturquoise;
+}
+
+
+.card{
+    padding: 60px 30px 20px;
+}
+
+
+img{
+    height: 90px;
+    width: 85px;
+    border-radius: 50%;
+    border: 3px solid grey;
+}
+
+
+.relative{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+
+.card h1{
+    margin-bottom: 25px;
+    font-weight: 450;
+}
+
+
+.map-marker{
+    width: auto;
+    max-height: 20px;
+    margin-right: 4px;
+    font: 1em sans-serif;
+    border: none;
+}
+
+
+p{
+    font-weight:350;
+    
+}
+
+
+.gear-icon{
+    width: auto;
+    max-height: 20px;
+    border: none;
+    margin-right: 4px;
+    color: royalblue;
+    font: 1em sans-serif;
+    text-underline-position: auto;
+}
+
+
+.spacer{
+    margin-bottom: 1em;
+}
+
+
+a{
+    color: royalblue;
+}
+
+/* PROFILE CARD END */
+
+
+/* EDUCATION CARD START */
+
+.edu-card{
+    width: 560px;
+    margin-top: 20px;
+    /* margin-right: 20px; */
+    min-height: 250px;
+    border: 3px solid darkgray;
+    background-color:white;
+} 
+
+
+#edu-banner {
+    background-color:rgb(26, 24, 24);
+    min-height: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+#edu-banner h2{
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:normal;
+}
+
+
+.edu-card h2{
+    margin-left: 20px;
+    font-weight: 350;
+    color: #000;
+}
+
+
+.edu-card h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    color:darkgray;
+}
+
+
+.edu-card p{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #000;
+    font-weight: 350;
+}
+
+/* EDUCATION CARD END */
+
+/* END LEFT COLUMN */
+
+
+/* RIGHT COLUMN START */
+
+.right-col{
+    width: 300px;
+    min-height: 800px;
+}
+
+
+/* REQUEST CARD START */
+
+.req-card{
+    min-height:200px;
+    border: 3px solid darkgray;
+    background-color:white;
+}
+
+
+#req-banner{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color:#000;
+}
+
+
+#circle {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+    align-items: center;
+    background:darkgray;
+    border-radius: 50%
+}
+
+
+#circle p{
+    margin-left: 10px;
+}
+
+
+#req-banner h4{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: whitesmoke;
+    font: bold;
+}
+
+
+.req-body img{
+    display: flex;
+    margin: 20px 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+.req-body p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.req-body{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.req-body-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.req-body-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* REQUEST CARD END */
+
+/* YOUR CONNECTIONS CARD START */
+
+.connect-card{
+    margin-top: 20px;
+    min-height: 350px;
+    border: 3px solid darkgray;
+    background-color:white;
+}
+
+
+#connect-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+    height: 60px;
+    background-color:#000;
+}
+
+
+#oval {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+    align-items: center;
+    background:darkgray;
+    border-radius: 100px / 50px
+}
+
+
+#oval p{
+    flex:auto;
+    margin-left: 10px;
+    color:#000;
+}
+
+
+#connect-banner h4{
+    margin-left: 30px;
+    color: whitesmoke;
+    font: bold;
+}
+
+/* CONNECT CARD BODY */
+
+.connect-body{
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    padding: 10px;
+}
+
+
+.connect-body img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+
+#connect-footer{
+    display: flex;
+    align-items: center;
+    min-height: auto;
+    padding: 10px;
+    border-top: 3px solid darkgray;
+    background-color: white;
+}
+
+
+#connect-footer h5{
+    color: royalblue;
+    text-align: center
+}
+
+
+/* RIGHT COLUMN END */
+
+
+
+
